@@ -2,7 +2,7 @@
 
 **URL:** <https://CRAN.R-project.org/view=Econometrics>
 
-**Source file:** <Econometrics.md>
+**Source file:** [Econometrics.md](Econometrics.md)
 
 **Contributions:** Suggestions and improvements for this task view are very
 welcome and can be made through issues or pull requests here on GitHub or
