@@ -3,7 +3,7 @@ name: Econometrics
 topic: Econometrics
 maintainer: Achim Zeileis, Grant McDermott
 email: Achim.Zeileis@R-project.org
-version: 2021-09-17
+version: 2021-12-07
 source: https://github.com/cran-task-views/Econometrics
 ---
 
@@ -15,8 +15,9 @@ views on `r view("Finance")`, `r view("SocialSciences")`, and
 `r view("TimeSeries")`.
 
 The packages in this view can be roughly structured into the following topics.
-If you think that some package is missing from the list, please contact the
-maintainer.
+If you think that some package is missing from the list, please file an issue in
+the GitHub repository or contact the maintainer.
+
 
 ### Basic linear regression
 
@@ -41,6 +42,7 @@ maintainer.
   `r pkg("pscl")`).
 - *Diagnostic checking:* The packages `r pkg("car")` and `r pkg("lmtest")`
   provide a large collection of regression diagnostics and diagnostic tests.
+
 
 ### Microeconometrics
 
@@ -131,6 +133,7 @@ maintainer.
   implements a Bayesian approach to microeconometrics and marketing. Inference
   for relative distributions is contained in package `r pkg("reldist")`.
 
+
 ### Instrumental variables
 
 - *Basic instrumental variables (IV) regression:* Two-stage least squares
@@ -147,6 +150,7 @@ maintainer.
   (between and random effects).
 - *Miscellaneous:* `r pkg("REndo")` fits linear models with endogenous
   regressor using various latent instrumental variable approaches.
+
 
 ### Panel data models
 
@@ -182,6 +186,7 @@ maintainer.
   for program evaluation is available in `r pkg("pampe")`. Dedicated fast data
   preprocessing for panel data econometrics is provided by `r pkg("collapse")`.
 
+
 ### Further regression models
 
 - *Nonlinear least squares modeling:* `nls()` in package stats.
@@ -216,6 +221,7 @@ maintainer.
 - *Miscellaneous:* The packages `r pkg("VGAM")`, `r pkg("rms")` and
   `r pkg("Hmisc")` provide several tools for extended handling of
   (generalized) linear regression models.
+
 
 ### Time series data and models
 
@@ -274,6 +280,7 @@ maintainer.
   - `r pkg("lpirfs")` - Local projections impulse response functions.
   - `r pkg("apt")` - Asymmetric price transmission models.
 
+
 ### Data sets
 
 - *Textbooks and journals:* Packages `r pkg("AER")`, `r pkg("Ecdat")`, and
@@ -305,6 +312,7 @@ maintainer.
   data sets from the Panel Study of Income Dynamics (PSID).
 - World Bank data and statistics: The `r pkg("wbstats")` package provides
   programmatic access to the World Bank API.
+
 
 ### Miscellaneous
 
