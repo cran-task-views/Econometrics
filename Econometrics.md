@@ -74,7 +74,7 @@ maintainer.
 - *Multinomial responses:* Multinomial models with individual-specific
   covariates only are available in `multinom()` from package `r pkg("nnet")`.
   An implementation with both individual- and choice-specific variables is
-  `r pkg("mlogit")` and `r pkg("mnlogit")`. Generalized multinomial logit models
+  `r pkg("mlogit")`. Generalized multinomial logit models
   (e.g., with random effects etc.) are in `r pkg("gmnl")`. A flexible
   framework of various customizable choice models (including multinomial logit
   and nested logit among many others) is implemented in the `r pkg("apollo")`
