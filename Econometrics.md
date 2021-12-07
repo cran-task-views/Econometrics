@@ -177,7 +177,7 @@ maintainer.
 - *Instrumental variables:* `r pkg("ivfixed")` and `r pkg("ivpanel")`, see
   also above.
 - *Miscellaneous:* Autocorrelation and heteroscedasticity correction are
-  available in `r pkg("wahc")` and `r pkg("panelAR")`. Threshold regression
+  available in `r pkg("wahc")`. Threshold regression
   and unit root tests are in `r pkg("pdR")`. The panel data approach method
   for program evaluation is available in `r pkg("pampe")`. Dedicated fast data
   preprocessing for panel data econometrics is provided by `r pkg("collapse")`.
