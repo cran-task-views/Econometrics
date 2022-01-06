@@ -3,7 +3,7 @@ name: Econometrics
 topic: Econometrics
 maintainer: Achim Zeileis, Grant McDermott
 email: Achim.Zeileis@R-project.org
-version: 2021-12-07
+version: 2022-01-06
 source: https://github.com/cran-task-views/Econometrics
 ---
 
@@ -199,7 +199,8 @@ the GitHub repository or contact the maintainer.
   modeling. In particular, spatial regression models can be fitted using
   `r pkg("spatialreg")` and `r pkg("sphet")` (the latter using a GMM approach).
   `r pkg("splm")` is a package for spatial panel models. Spatial probit models
-  are available in `r pkg("spatialprobit")`.
+  are available in `r pkg("spatialprobit")` and spatial seemingly unrelated
+  regression (SUR) models in `r pkg("spsur")`.
 - *Bayesian model averaging (BMA):* A comprehensive toolbox for BMA is
   provided by `r pkg("BMS")` including flexible prior selection, sampling,
   etc. A different implementation is in `r pkg("BMA")` for linear models,
