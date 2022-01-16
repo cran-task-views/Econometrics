@@ -49,12 +49,15 @@ the GitHub repository or contact the maintainer.
 - *Generalized linear models (GLMs):* Many standard microeconometric models
   belong to the family of generalized linear models and can be fitted by
   `glm()` from package stats. This includes in particular logit and probit
-  models for modeling choice data and Poisson models for count data. Effects
-  for typical values of regressors in these models can be obtained and
-  visualized using `r pkg("effects")`. Marginal effects tables for certain
-  GLMs can be obtained using the `r pkg("margins")` and `r pkg("mfx")`
-  packages. Interactive visualizations of both effects and marginal effects
-  are possible in `r pkg("LinRegInteractive")`.
+  models for modeling choice data and Poisson models for count data.
+- *Effects and marginal effects:*  Effects for typical values of regressors
+  in GLMs and various other probabilistic regression models can be obtained
+  and visualized using `r pkg("effects")`. Marginal effect tables and
+  corresponding visualizations for a wide range of models can be be produced
+  with `r pkg("marginaleffects", priority = "core")`. Other implementations
+  of marginal effects for certain models are in `r pkg("margins")` and
+  `r pkg("mfx")`. Interactive visualizations of both effects and marginal
+  effects are possible in `r pkg("LinRegInteractive")`.
 - *Binary responses:* The standard logit and probit models (among many
   others) for binary responses are GLMs that can be estimated by `glm()` with
   `family = binomial`. Bias-reduced GLMs that are robust to complete and
