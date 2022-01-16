@@ -27,7 +27,7 @@ the GitHub repository or contact the maintainer.
   `summary()` and `anova()`.
 - *Further inference and nested model comparisons:* Functions analogous to
   the basic `summary()` and `anova()` methods that also support asymptotic
-  tests ( *z* instead of *t* tests, and Chi-squared instead of *F* tests) and
+  tests (*z* instead of *t* tests, and Chi-squared instead of *F* tests) and
   plug-in of other covariance matrices are `coeftest()` and `waldtest()` in
   `r pkg("lmtest", priority = "core")`. Tests of more general linear hypotheses
   are implemented in `linearHypothesis()` and for nonlinear hypotheses in
@@ -118,11 +118,12 @@ the GitHub repository or contact the maintainer.
   Weibull models with `survreg()`. Many more refined models can be found in
   the `r view("Survival")` task view. The Heckman and Singer mixed
   proportional hazard competing risk model is available in `r pkg("durmod")`.
-- *High-dimensional fixed effects:* Linear models with potentially
-  high-dimensional fixed effects, also for multiple groups, can be fitted by
-  `r pkg("lfe")`. The corresponding GLMs are covered in `r pkg("alpaca")`.
-  Another implementation, based on C++ code covering both OLS and GLMs is in
-  `r pkg("fixest")`.
+- *High-dimensional fixed effects:* Linear and generalized linear models with
+  potentially high-dimensional fixed effects, also for multiple groups, can be
+  fitted with `r pkg("fixest", priority = "core")`, using optimized parallel
+  C++ code. Other implementations of high-dimensional fixed effects are in
+  `r pkg("lfe")` and `r pkg("alpaca")` for linear and generalized linear models,
+  respectively.
 - *Miscellaneous:* Further more refined tools for microeconometrics are
   provided in the `r pkg("micEcon")` family of packages: Analysis with
   Cobb-Douglas, translog, and quadratic functions is in `r pkg("micEcon")`;
