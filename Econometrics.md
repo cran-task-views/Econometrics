@@ -1,7 +1,7 @@
 ---
 name: Econometrics
 topic: Econometrics
-maintainer: Achim Zeileis, Grant McDermott
+maintainer: Achim Zeileis, Grant McDermott, Kevin Tappe
 email: Achim.Zeileis@R-project.org
 version: 2022-01-06
 source: https://github.com/cran-task-views/Econometrics
