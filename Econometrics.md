@@ -237,7 +237,7 @@ the GitHub repository or contact the maintainer.
   stochastic volatility models, or stochastic differential equations, etc.)
   are described in the `r view("Finance")` task view.
 - *Infrastructure for regularly spaced time series:* The class `"ts"` in
-  package stats is R\'s standard class for regularly spaced time series
+  package stats is R's standard class for regularly spaced time series
   (especially annual, quarterly, and monthly data). It can be coerced back and
   forth without loss of information to `"zooreg"` from package `r pkg("zoo",
   priority = "core")`.
@@ -306,13 +306,13 @@ the GitHub repository or contact the maintainer.
   respectively.
 - *Time series and forecasting data:* The packages `r pkg("expsmooth")`,
 `r pkg("fma")`, and `r pkg("Mcomp")` are data packages with time series data
-  from the books \'Forecasting with Exponential Smoothing: The State Space
-  Approach\' (Hyndman, Koehler, Ord, Snyder, 2008, Springer) and
-  \'Forecasting: Methods and Applications\' (Makridakis, Wheelwright, Hyndman,
+  from the books "Forecasting with Exponential Smoothing: The State Space
+  Approach" (Hyndman, Koehler, Ord, Snyder, 2008, Springer) and
+  "Forecasting: Methods and Applications" (Makridakis, Wheelwright, Hyndman,
   3rd ed., 1998, Wiley) and the M-competitions, respectively.
 - *Empirical Research in Economics:* Package `r pkg("erer")` contains
-  functions and datasets for the book of \'Empirical Research in Economics:
-  Growing up with R\' (Sun, forthcoming).
+  functions and datasets for the book of "Empirical Research in Economics:
+  Growing up with R" (Sun 2015).
 - *Panel Study of Income Dynamics (PSID):* `r pkg("psidR")` can build panel
   data sets from the Panel Study of Income Dynamics (PSID).
 - World Bank data and statistics: The `r pkg("wbstats")` package provides
@@ -321,6 +321,12 @@ the GitHub repository or contact the maintainer.
 
 ### Miscellaneous
 
+- *Model tables:* A flexible implementation of side-by-side summary tables for
+  a wide range of statistical models along with corresponding visualizations
+  and data summary tables is provided in `r pkg("modelsummary")`. Other
+  implementations as well as further utilities for integrating econometric
+  and statistical results in scientific papers etc. are discussed in the
+  `r view("ReproducibleResearch")` task view.
 - *Matrix manipulations:* As a vector- and matrix-based language, base R
   ships with many powerful tools for doing matrix manipulations, which are
   complemented by the packages `r pkg("Matrix")` and `r pkg("SparseM")`.
@@ -337,7 +343,7 @@ the GitHub repository or contact the maintainer.
   `r pkg("meboot")` or the `tsbootstrap()` from `r pkg("tseries")`.
 - *Inequality:* For measuring inequality, concentration and poverty the
   package `r pkg("ineq")` provides some basic tools such as Lorenz curves,
-  Pen\'s parade, the Gini coefficient and many more.
+  Pen's parade, the Gini coefficient and many more.
 - *Structural change:* R is particularly strong when dealing with structural
   changes and changepoints in parametric models, see `r pkg("strucchange")`
   and `r pkg("segmented")`.
@@ -360,7 +366,7 @@ the GitHub repository or contact the maintainer.
 
 
 ### Links
-- Journal of Statistical Software: [Special Volume on \'Econometrics in R\' (2008)](http://www.jstatsoft.org/v27/)
+- Journal of Statistical Software: [Special Volume on "Econometrics in R" (2008)](http://www.jstatsoft.org/v27/)
 - Book: [Applied Econometrics with R (Kleiber and Zeileis)](https://eeecon.uibk.ac.at/~zeileis/teaching/AER/)
 - Book: [Using R for Introductory Econometrics (Heiss)](http://www.urfie.net/)
 - Book: [Introduction to Econometrics with R (Hanck, Arnold, Gerber, Schmelzer)](https://www.Econometrics-with-R.org/)
