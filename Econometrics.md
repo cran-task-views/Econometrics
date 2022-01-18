@@ -4,7 +4,7 @@ topic: Econometrics
 maintainer: Achim Zeileis, Grant McDermott, Kevin Tappe
 email: Achim.Zeileis@R-project.org
 version: 2022-01-06
-source: https://github.com/cran-task-views/Econometrics
+source: https://github.com/cran-task-views/Econometrics/
 ---
 
 Base R ships with a lot of functionality useful for computational econometrics,
@@ -377,5 +377,4 @@ the GitHub repository or contact the maintainer.
 - Manual: [Introduction to Econometrics with R (Oswald, Robin, Viers)](https://scpoecon.github.io/ScPoEconometrics/)
 - Manual: [Econometrics In-Class Labs (Ransom)](https://tyleransom.github.io/econometricslabs.html)
 - Manual: [Data Science for Economists (McDermott)](https://github.com/uo-ec607/lectures)
-- [A Brief Guide to R for Beginners in Econometrics](https://mondo.su.se/access/content/user/ma@su.se/Public/)
 - [R for Economists](http://www.mayin.org/ajayshah/KB/R/R_for_economists.html)
