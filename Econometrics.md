@@ -133,7 +133,7 @@ the GitHub repository or contact the maintainer.
   `r pkg("micEconAids")`. Stochastic frontier analysis (SFA) is in
   `r pkg("frontier")` and certain special cases also in `r pkg("sfa")`.
   Semiparametric SFA in is available in `r pkg("semsfa")` and spatial SFA in
-  `r pkg("spfrontier")` and `r pkg("ssfa")`. The package `r pkg("bayesm")`
+  `r pkg("ssfa")`. The package `r pkg("bayesm")`
   implements a Bayesian approach to microeconometrics and marketing. Inference
   for relative distributions is contained in package `r pkg("reldist")`.
 
