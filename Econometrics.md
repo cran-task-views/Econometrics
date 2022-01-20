@@ -3,7 +3,7 @@ name: Econometrics
 topic: Econometrics
 maintainer: Achim Zeileis, Grant McDermott, Kevin Tappe
 email: Achim.Zeileis@R-project.org
-version: 2022-01-06
+version: 2022-01-20
 source: https://github.com/cran-task-views/Econometrics/
 ---
 
@@ -295,9 +295,7 @@ the GitHub repository or contact the maintainer.
   Journal of Applied Econometrics and the Journal of Business & Economic
   Statistics data archives. `r pkg("AER")` and `r pkg("wooldridge")`
   additionally provide extensive sets of examples reproducing analyses from
-  the textbooks/papers, illustrating various econometric methods. In
-  `r pkg("pder")` a wide collection of data sets for "Panel Data Econometrics
-  with R" (Croissant & Millo 2018) is available. The
+  the textbooks/papers, illustrating various econometric methods. The
   `r github("ccolonescu/PoEdata")` package on GitHub provides the data sets from
   "Principles of Econometrics" (4th ed, by Hill, Griffiths, and Lim 2011).
 - *Canadian monetary aggregates:* `r pkg("CDNmoney")`.
