@@ -3,7 +3,7 @@ name: Econometrics
 topic: Econometrics
 maintainer: Achim Zeileis, Grant McDermott, Kevin Tappe
 email: Achim.Zeileis@R-project.org
-version: 2022-01-20
+version: 2022-01-22
 source: https://github.com/cran-task-views/Econometrics/
 ---
 
@@ -149,9 +149,12 @@ the GitHub repository or contact the maintainer.
   `r pkg("ivprobit")`. The `r pkg("LARF")` package estimates local average
   response functions for binary treatments and binary instruments.
 - *Panel data:* Certain basic IV models for panel data can also be estimated
-  with standard 2SLS functions (see above). Dedicated IV panel data models are
-  provided by `r pkg("ivfixed")` (fixed effects) and `r pkg("ivpanel")`
-  (between and random effects).
+  with standard 2SLS functions (see above). Some panel data model packages
+  (see also below) provide IV models, `r pkg("fixest")` and `r pkg("lfe")` for 
+  fixed effects, and `r pkg("plm")` additionally first-difference, between, and 
+  multiple random effects methods. Dedicated IV panel data models are provided by 
+  `r pkg("ivfixed")` (fixed effects) and `r pkg("ivpanel")` (between and random 
+  effects).
 - *Miscellaneous:* `r pkg("REndo")` fits linear models with endogenous
   regressor using various latent instrumental variable approaches.
 
