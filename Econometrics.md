@@ -366,7 +366,7 @@ the GitHub repository or contact the maintainer.
   with correlated outcome sequences.
 
 
-### Further resources
+### Links
 - Articles: [Special Volume on "Econometrics in R" in JSS (2008)](http://www.jstatsoft.org/v27/)
 - Book: [Applied Econometrics with R (Kleiber & Zeileis; 2008)](https://eeecon.uibk.ac.at/~zeileis/teaching/AER/)
 - Book: [Introduction to Econometrics with R (Hanck, Arnold, Gerber, & Schmelzer; 2021)](https://www.Econometrics-with-R.org/)
