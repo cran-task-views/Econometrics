@@ -342,6 +342,9 @@ the GitHub repository or contact the maintainer.
   `r pkg("bootstrap")` or `r pkg("simpleboot")` as well some bootstrap techniques
   designed for time-series data, such as the maximum entropy bootstrap in
   `r pkg("meboot")` or the `tsbootstrap()` from `r pkg("tseries")`.
+  The `r pkg("fwildclusterboot")` package provides a fast wild cluster
+  bootstrap implementation for linear regression models, especially when
+  the number of clusters is low.
 - *Inequality:* For measuring inequality, concentration and poverty the
   package `r pkg("ineq")` provides some basic tools such as Lorenz curves,
   Pen's parade, the Gini coefficient and many more.
