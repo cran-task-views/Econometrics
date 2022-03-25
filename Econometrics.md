@@ -11,8 +11,7 @@ Base R ships with a lot of functionality useful for computational econometrics,
 in particular in the stats package. This functionality is complemented by many
 packages on CRAN, a brief overview is given below. There is also a considerable
 overlap between the tools for econometrics in this view and those in the task
-views on `r view("Finance")`, `r view("SocialSciences")`, and
-`r view("TimeSeries")`.
+views on `r view("Finance")` and `r view("TimeSeries")`.
 
 The packages in this view can be roughly structured into the following topics.
 If you think that some package is missing from the list, please file an issue in
