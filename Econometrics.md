@@ -140,22 +140,24 @@ the GitHub repository or contact the maintainer.
 ### Instrumental variables
 
 - *Basic instrumental variables (IV) regression:* Two-stage least squares
-  (2SLS) is provided by `r pkg("ivreg")` (previously in `r pkg("AER")`). Other
-  implementations are in `tsls()` in package `r pkg("sem")`, in
-  `r pkg("ivpack")`, and `r pkg("lfe")` (with particular focus on multiple group
-  fixed effects).
+  (2SLS) is provided by `r pkg("ivreg", priority = "core")`, which separates
+  out the dedicated 2SLS routines previously found in `r pkg("AER")`). Other
+  implementations include `tsls()` in package `r pkg("sem")` and `r
+  pkg("ivpack")`,
 - *Binary responses:* An IV probit model via GLS estimation is available in
   `r pkg("ivprobit")`. The `r pkg("LARF")` package estimates local average
   response functions for binary treatments and binary instruments.
-- *Panel data:* Certain basic IV models for panel data can also be estimated
-  with standard 2SLS functions (see above). Some panel data model packages
-  (see also below) provide IV models, `r pkg("fixest")` and `r pkg("lfe")` for 
-  fixed effects, and `r pkg("plm")` additionally first-difference, between, and 
-  multiple random effects methods. Dedicated IV panel data models are provided by 
-  `r pkg("ivfixed")` (fixed effects) and `r pkg("ivpanel")` (between and random 
+- *Panel data:* Several panel data model packages (see below) provide their own
+  dedicated IV routines for efficient estimation in the presence of
+  high-dimensional data. These include `r pkg("fixest")` and `r pkg("lfe")` for
+  fixed effects, and `r pkg("plm")` for first-difference, between, and multiple
+  random effects methods. Additional IV panel data models are provided by `r
+  pkg("ivfixed")` (fixed effects) and `r pkg("ivpanel")` (between and random
   effects).
 - *Miscellaneous:* `r pkg("REndo")` fits linear models with endogenous
-  regressor using various latent instrumental variable approaches.
+  regressor using various latent instrumental variable approaches. `r
+  pkg{"SteinIV")` provides semi-parametric IV estimators, including JIVE and
+  SPS.
 
 
 ### Panel data models
