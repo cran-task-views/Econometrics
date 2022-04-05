@@ -167,11 +167,11 @@ the GitHub repository or contact the maintainer.
   correct the standard errors. Different types of clustered, panel, and
   panel-corrected standard errors are available in `r pkg("sandwich")`
   (incorporating prior work from `r pkg("multiwayvcov")`),
-  `r pkg("clusterSEs")`, `r pkg("pcse")`, `r pkg("clubSandwich")`, `r pkg("plm",
-  priority = "core")`, and `r pkg("geepack")`, respectively. The latter two
-  require estimation of the pooling/independence models via `plm()` and
-  `geeglm()` from the respective packages (which also provide other types of
-  models, see below).
+  `r pkg("clusterSEs")`, `r pkg("pcse")`, `r pkg("clubSandwich")`, 
+  `r pkg("plm", priority = "core")`, and `r pkg("geepack")`, respectively. 
+  The latter two require estimation of the pooling/independence models via
+  `plm()` and `geeglm()` from the respective packages (which also provide 
+  other types of models, see below).
 - *Linear panel models:* `r pkg("plm")`, providing a wide range of within,
   between, and random-effect methods (among others) along with corrected
   standard errors, tests, etc. Another implementation of several of these
