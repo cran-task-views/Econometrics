@@ -156,7 +156,7 @@ the GitHub repository or contact the maintainer.
   effects).
 - *Miscellaneous:* `r pkg("REndo")` fits linear models with endogenous
   regressor using various latent instrumental variable approaches. 
-  `r pkg{"SteinIV")` provides semi-parametric IV estimators, including JIVE and
+  `r pkg("SteinIV")` provides semi-parametric IV estimators, including JIVE and
   SPS.
 
 
