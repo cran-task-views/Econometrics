@@ -3,7 +3,7 @@ name: Econometrics
 topic: Econometrics
 maintainer: Achim Zeileis, Grant McDermott, Kevin Tappe
 email: Achim.Zeileis@R-project.org
-version: 2022-04-06
+version: 2022-04-11
 source: https://github.com/cran-task-views/Econometrics/
 ---
 
@@ -275,7 +275,8 @@ the GitHub repository or contact the maintainer.
   available in `r pkg("panelvar")`.
 - *Unit root and cointegration tests:* `r pkg("urca", priority = "core")`,
   `r pkg("tseries", priority = "core")`, `r pkg("CADFtest")`. See also
-  `r pkg("pco")` for panel cointegration tests.
+  `r pkg("pco")` for panel cointegration tests and 
+  `r pkg("plm", priority = "core")` for panel unit root tests.
 - *Miscellaneous:*
   - `r pkg("tsDyn")` - Threshold and smooth transition models.
   - `r pkg("midasr")` - *MIDAS regression* and other econometric methods for
