@@ -41,6 +41,11 @@ the GitHub repository or contact the maintainer.
   `r pkg("pscl")`).
 - *Diagnostic checking:* The packages `r pkg("car")` and `r pkg("lmtest")`
   provide a large collection of regression diagnostics and diagnostic tests.
+- *Miscellaneous:* Much of the above functionality is bundled together in
+  `r pkg("fixest", priority = "core")`, which provides a number of in-built
+  convenience features that users may find attractive. This includes 
+  robust standard error specification, multi-model estimation, custom 
+  hypothesis testing, etc.
 
 
 ### Microeconometrics
@@ -184,7 +189,9 @@ the GitHub repository or contact the maintainer.
   The latter two require estimation of the pooling/independence models via
   `plm()` and `geeglm()` from the respective packages (which also provide 
   other types of models, see below).
-- *Linear panel models:* `r pkg("plm")`, providing a wide range of within,
+- *Linear panel models:* `r pkg("fixest", priority = "core)` provides very
+  efficient fixed-effect routines that scale to high-dimensional data and
+  multiple fixed-effects.  `r pkg("plm")`, providing a wide range of within,
   between, and random-effect methods (among others) along with corrected
   standard errors, tests, etc. Another implementation of several of these
   models is in `r pkg("Paneldata")`. Various dynamic panel models are
@@ -193,13 +200,17 @@ the GitHub repository or contact the maintainer.
   `r pkg("OrthoPanels")`. `r pkg("feisr")` provides fixed effects individual
   slope (FEIS) models. Panel vector autoregressions are implemented in
   `r pkg("panelvar")`.
-- *Generalized estimation equations and GLMs:* GEE models for panel data (or
-  longitudinal data in statistical jargon) are in `r pkg("geepack")`. The
-  `r pkg("pglm")` package provides estimation of GLM-like models for panel data.
+- *GLMs and generalized estimation equations*. The aformentioned `r pkg("fixest")`
+  supports a variety of GLM-like models in addition to linear panel models. 
+  This includes efficient fixed-effect estimation of logit, probit, Poisson,
+  and negative binomial models. Similar functionality is provided by 
+  `r pkg("alpaca")` (which also accounts for incidental parameter problems) 
+  and `r pkg("pglm")`. GEE models for panel data (or longitudinal data in 
+  statistical jargon) are available in in `r pkg("geepack")`.
 - *Mixed effects models:* Linear and nonlinear models for panel data (and
   more general multi-level data) are available in `r pkg("lme4")` and `r pkg("nlme")`.
-- *Instrumental variables:* `r pkg("ivfixed")` and `r pkg("ivpanel")`, see
-  also above.
+- *Instrumental variables:* `r pkg("fixest)`, `r pkg("ivfixed")` and `r pkg("ivpanel")`.
+  See also above.
 - *Miscellaneous:* Autocorrelation and heteroscedasticity correction are
   available in `r pkg("wahc")`. Threshold regression
   and unit root tests are in `r pkg("pdR")`. The panel data approach method
