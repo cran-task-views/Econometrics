@@ -3,7 +3,7 @@ name: Econometrics
 topic: Econometrics
 maintainer: Achim Zeileis, Grant McDermott, Kevin Tappe
 email: Achim.Zeileis@R-project.org
-version: 2022-04-11
+version: 2022-06-07
 source: https://github.com/cran-task-views/Econometrics/
 ---
 
@@ -159,6 +159,18 @@ the GitHub repository or contact the maintainer.
   `r pkg("SteinIV")` provides semi-parametric IV estimators, including JIVE and
   SPS.
 
+### Regression discontinuity design
+
+- Regression discontinuity design (RDD) methods are implemented in 
+  `r pkg("rdrobust")` (offering robust confidence interval construction and
+  bandwidth selection), `r pkg("rddensity")` (density discontinuity testing
+  (also known as manipulation testing)), `r pkg("rdlocrand")` (inference under 
+  local randomization), and `r pkg("rdmulti")` (analysis with multiple cutoffs 
+  or scores).
+- Tools to perform power, sample size and minimum detectable effects (MDE) 
+  calculations are available in `r pkg("rdpower")`, while `r pkg("RATest")` 
+  provides a collection of randomization tests, including a permutation test
+  for the continuity assumption of the baseline covariates in the sharp RDD.
 
 ### Panel data models
 
