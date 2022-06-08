@@ -189,7 +189,7 @@ the GitHub repository or contact the maintainer.
   The latter two require estimation of the pooling/independence models via
   `plm()` and `geeglm()` from the respective packages (which also provide 
   other types of models, see below).
-- *Linear panel models:* `r pkg("fixest", priority = "core)` provides very
+- *Linear panel models:* `r pkg("fixest", priority = "core")` provides very
   efficient fixed-effect routines that scale to high-dimensional data and
   multiple fixed-effects.  `r pkg("plm")`, providing a wide range of within,
   between, and random-effect methods (among others) along with corrected
@@ -209,7 +209,7 @@ the GitHub repository or contact the maintainer.
   statistical jargon) are available in in `r pkg("geepack")`.
 - *Mixed effects models:* Linear and nonlinear models for panel data (and
   more general multi-level data) are available in `r pkg("lme4")` and `r pkg("nlme")`.
-- *Instrumental variables:* `r pkg("fixest)`, `r pkg("ivfixed")` and `r pkg("ivpanel")`.
+- *Instrumental variables:* `r pkg("fixest")`, `r pkg("ivfixed")` and `r pkg("ivpanel")`.
   See also above.
 - *Miscellaneous:* Autocorrelation and heteroscedasticity correction are
   available in `r pkg("wahc")`. Threshold regression
