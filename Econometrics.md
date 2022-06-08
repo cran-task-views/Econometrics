@@ -238,6 +238,13 @@ the GitHub repository or contact the maintainer.
   generalizable linear models and survival models (Cox regression).
 - *Linear structural equation models:* `r pkg("lavaan")` and `r pkg("sem")`.
   See also the `r view("Psychometrics")` task view for more details.
+- *Machine learning:* There are several packages that combine machine
+  learning techniques with econometric inference (especially for identifying
+  causal effects). These include `r pkg("grf")` for causal random forests
+  and estimation of heterogeneous treatment effects, `r pkg("DoubleML")`
+  for double machine learning of a wide range of models from the mlr3 family,
+  and `r pkg("hdm")` for selected high-dimensional econometric models.
+  For a more general overview see the `r view("MachineLearning")` task view.
 - *Simultaneous equation estimation:* `r pkg("systemfit")`.
 - *Nonparametric methods:* `r pkg("np")` using kernel smoothing and
   `r pkg("NNS")` using partial moments.
