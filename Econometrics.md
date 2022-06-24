@@ -7,11 +7,11 @@ version: 2022-06-07
 source: https://github.com/cran-task-views/Econometrics/
 ---
 
-Base R ships with a lot of functionality useful for computational econometrics,
+Base R ships with a lot of functionality useful for (computational) econometrics,
 in particular in the stats package. This functionality is complemented by many
-packages on CRAN, a brief overview is given below. There is also a considerable
+packages on CRAN, a brief overview is given below. There is also a certain
 overlap between the tools for econometrics in this view and those in the task
-views on `r view("Finance")` and `r view("TimeSeries")`.
+views on `r view("Finance")`, `r view("TimeSeries")`, and `r view("CausalInference")`.
 
 The packages in this view can be roughly structured into the following topics.
 If you think that some package is missing from the list, please file an issue in
@@ -148,7 +148,7 @@ the GitHub repository or contact the maintainer.
   (2SLS) is provided by `r pkg("ivreg", priority = "core")`, which separates
   out the dedicated 2SLS routines previously found in `r pkg("AER")`). Other
   implementations include `tsls()` in package `r pkg("sem")` and 
-  `r pkg("ivpack")`,
+  `r pkg("ivpack")`.
 - *Binary responses:* An IV probit model via GLS estimation is available in
   `r pkg("ivprobit")`. The `r pkg("LARF")` package estimates local average
   response functions for binary treatments and binary instruments.
@@ -163,6 +163,7 @@ the GitHub repository or contact the maintainer.
   regressor using various latent instrumental variable approaches. 
   `r pkg("SteinIV")` provides semi-parametric IV estimators, including JIVE and
   SPS.
+- *See also* the `r view("CausalInference")` task view for related discussions.
 
 ### Regression discontinuity design
 
@@ -176,6 +177,7 @@ the GitHub repository or contact the maintainer.
   calculations are available in `r pkg("rdpower")`, while `r pkg("RATest")` 
   provides a collection of randomization tests, including a permutation test
   for the continuity assumption of the baseline covariates in the sharp RDD.
+- *See also* the `r view("CausalInference")` task view for related discussions.
 
 ### Panel data models
 
