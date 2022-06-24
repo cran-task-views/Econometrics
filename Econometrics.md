@@ -3,7 +3,7 @@ name: Econometrics
 topic: Econometrics
 maintainer: Achim Zeileis, Grant McDermott, Kevin Tappe
 email: Achim.Zeileis@R-project.org
-version: 2022-06-07
+version: 2022-06-24
 source: https://github.com/cran-task-views/Econometrics/
 ---
 
@@ -120,8 +120,7 @@ the GitHub repository or contact the maintainer.
 - *Duration responses:* Many classical duration models can be fitted with
   `r pkg("survival")`, e.g., Cox proportional hazard models with `coxph()` or
   Weibull models with `survreg()`. Many more refined models can be found in
-  the `r view("Survival")` task view. The Heckman and Singer mixed
-  proportional hazard competing risk model is available in `r pkg("durmod")`.
+  the `r view("Survival")` task view.
 - *High-dimensional fixed effects:* Linear and generalized linear models with
   potentially high-dimensional fixed effects, also for multiple groups, can be
   fitted with `r pkg("fixest", priority = "core")`, using optimized parallel
@@ -135,7 +134,7 @@ the GitHub repository or contact the maintainer.
   the symmetric normalized quadratic profit (SNQP) function is in
   `r pkg("micEconSNQP")`. The almost ideal demand system (AIDS) is in
   `r pkg("micEconAids")`. Stochastic frontier analysis (SFA) is in
-  `r pkg("frontier")` and certain special cases also in `r pkg("sfa")`.
+  `r pkg("frontier")`.
   Semiparametric SFA in is available in `r pkg("semsfa")` and spatial SFA in
   `r pkg("ssfa")`. The package `r pkg("bayesm")`
   implements a Bayesian approach to microeconometrics and marketing. Inference
