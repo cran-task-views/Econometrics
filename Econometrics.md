@@ -145,9 +145,8 @@ the GitHub repository or contact the maintainer.
 
 - *Basic instrumental variables (IV) regression:* Two-stage least squares
   (2SLS) is provided by `r pkg("ivreg", priority = "core")`, which separates
-  out the dedicated 2SLS routines previously found in `r pkg("AER")`). Other
-  implementations include `tsls()` in package `r pkg("sem")` and 
-  `r pkg("ivpack")`.
+  out the dedicated 2SLS routines previously found in `r pkg("AER")`). Another
+  implementation is available as `tsls()` in package `r pkg("sem")`.
 - *Binary responses:* An IV probit model via GLS estimation is available in
   `r pkg("ivprobit")`. The `r pkg("LARF")` package estimates local average
   response functions for binary treatments and binary instruments.
