@@ -211,8 +211,7 @@ the GitHub repository or contact the maintainer.
   more general multi-level data) are available in `r pkg("lme4")` and `r pkg("nlme")`.
 - *Instrumental variables:* `r pkg("fixest")`, `r pkg("ivfixed")` and `r pkg("ivpanel")`.
   See also above.
-- *Miscellaneous:* Autocorrelation and heteroscedasticity correction are
-  available in `r pkg("wahc")`. Threshold regression
+- *Miscellaneous:* Threshold regression
   and unit root tests are in `r pkg("pdR")`. The panel data approach method
   for program evaluation is available in `r pkg("pampe")`. Dedicated fast data
   preprocessing for panel data econometrics is provided by `r pkg("collapse")`.
