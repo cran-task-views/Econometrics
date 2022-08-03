@@ -207,8 +207,7 @@ the GitHub repository or contact the maintainer.
   statistical jargon) are available in in `r pkg("geepack")`.
 - *Mixed effects models:* Linear and nonlinear models for panel data (and
   more general multi-level data) are available in `r pkg("lme4")` and `r pkg("nlme")`.
-- *Instrumental variables:* `r pkg("fixest")`, `r pkg("ivfixed")` and `r pkg("ivpanel")`.
-  See also above.
+- *Instrumental variables:* `r pkg("fixest")`. See also above.
 - *Miscellaneous:* Threshold regression
   and unit root tests are in `r pkg("pdR")`. The panel data approach method
   for program evaluation is available in `r pkg("pampe")`. Dedicated fast data
