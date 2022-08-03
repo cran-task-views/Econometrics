@@ -191,8 +191,7 @@ the GitHub repository or contact the maintainer.
   efficient fixed-effect routines that scale to high-dimensional data and
   multiple fixed-effects.  `r pkg("plm")`, providing a wide range of within,
   between, and random-effect methods (among others) along with corrected
-  standard errors, tests, etc. Another implementation of several of these
-  models is in `r pkg("Paneldata")`. Various dynamic panel models are
+  standard errors, tests, etc. Various dynamic panel models are
   available in `r pkg("plm")`, with estimation based on moment conditions in
   `r pkg("pdynmc")`, and dynamic panel models with fixed effects in
   `r pkg("OrthoPanels")`. `r pkg("feisr")` provides fixed effects individual
