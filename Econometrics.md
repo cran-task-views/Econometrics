@@ -154,9 +154,7 @@ the GitHub repository or contact the maintainer.
   dedicated IV routines for efficient estimation in the presence of
   high-dimensional data. These include `r pkg("fixest")` and `r pkg("lfe")` for
   fixed effects, and `r pkg("plm")` for first-difference, between, and multiple
-  random effects methods. Additional IV panel data models are provided by 
-  `r pkg("ivfixed")` (fixed effects) and `r pkg("ivpanel")` (between and random
-  effects).
+  random effects methods.
 - *Miscellaneous:* `r pkg("REndo")` fits linear models with endogenous
   regressor using various latent instrumental variable approaches. 
   `r pkg("SteinIV")` provides semi-parametric IV estimators, including JIVE and
