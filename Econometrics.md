@@ -3,7 +3,7 @@ name: Econometrics
 topic: Econometrics
 maintainer: Achim Zeileis, Grant McDermott, Kevin Tappe
 email: Achim.Zeileis@R-project.org
-version: 2022-06-24
+version: 2022-09-13
 source: https://github.com/cran-task-views/Econometrics/
 ---
 
@@ -376,7 +376,7 @@ the GitHub repository or contact the maintainer.
   the number of clusters is low.
 - *Inequality:* For measuring inequality, concentration and poverty the
   package `r pkg("ineq")` provides some basic tools such as Lorenz curves,
-  Pen's parade, the Gini coefficient and many more.
+  Pen's parade, the Gini coefficient, Herfindahl-Hirschman index and many more.
 - *Structural change:* R is particularly strong when dealing with structural
   changes and changepoints in parametric models, see `r pkg("strucchange")`
   and `r pkg("segmented")`.
