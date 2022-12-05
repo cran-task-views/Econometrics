@@ -3,7 +3,7 @@ name: Econometrics
 topic: Econometrics
 maintainer: Achim Zeileis, Grant McDermott, Kevin Tappe
 email: Achim.Zeileis@R-project.org
-version: 2022-09-13
+version: 2022-12-06
 source: https://github.com/cran-task-views/Econometrics/
 ---
 
@@ -114,8 +114,7 @@ the GitHub repository or contact the maintainer.
 - *Truncated responses:* `r pkg("crch")` for truncated (and potentially
   heteroscedastic) Gaussian, logistic, and t responses. Homoscedastic Gaussian
   responses are also available in `r pkg("truncreg")`.
-- *Fraction and proportion responses:* Fractional response models are in
-  `r pkg("frm")`. Beta regression for responses in (0, 1) is in
+- *Fraction and proportion responses:* Beta regression for responses in (0, 1) is in
   `r pkg("betareg")` and `r pkg("gamlss")`.
 - *Duration responses:* Many classical duration models can be fitted with
   `r pkg("survival")`, e.g., Cox proportional hazard models with `coxph()` or
