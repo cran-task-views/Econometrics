@@ -140,7 +140,32 @@ the GitHub repository or contact the maintainer.
   for relative distributions is contained in package `r pkg("reldist")`.
 
 
-### Instrumental variables
+### Canonical research designs
+
+We briefly review packages related to some common research designs below. This
+section should be paired with the `r view("CausalInference")` task view, since
+is there a high degree of overlap.
+
+#### Difference-in-differences
+
+- *Basic difference-in-differences (DiD):* The canonical 2x2 DiD model (two 
+  units, two periods) can be estimated as a simple interaction between two
+  factor variables in `lm()` or `glm()`, etc. Similarly, the equivalent 
+  two-way fixed effects (TWFE) design can be obtained using factors to control 
+  for unit and time fixed effects. However, for high-dimensional datasets TWFE 
+  is more conveniently estimated using a dedicated panel data package like 
+  `r pkg("fixest")` or `r pkg("plm")`. The former even provides a convenience 
+  `i()` operator for constructing and interacting factors in TWFE settings.
+- *Advanced DiD and TWFE corrections:* Despite its long-standing popularity,
+  recent research has revealed various problems with (naive) TWFE; for example,
+  severe bias in the presence of staggered treatment rollout. A [cottage
+  industry](https://asjadnaqvi.github.io/DiD/docs/02_R/) of workarounds and 
+  alternative estimators now exists to address these problems. Examples include:
+  `r pkg("bacondecomp")`, `r pkg("did")`, `r pkg("did2s")`, `r pkg("DRDID")`, 
+  `r pkg("etwfe)`, `r pkg("fixest")` (via the `sunab()` function), and 
+  `r pkg("gsynth")`.
+
+#### Instrumental variables
 
 - *Basic instrumental variables (IV) regression:* Two-stage least squares
   (2SLS) is provided by `r pkg("ivreg", priority = "core")`, which separates
@@ -158,9 +183,8 @@ the GitHub repository or contact the maintainer.
   regressor using various latent instrumental variable approaches. 
   `r pkg("SteinIV")` provides semi-parametric IV estimators, including JIVE and
   SPS.
-- *See also* the `r view("CausalInference")` task view for related discussions.
 
-### Regression discontinuity design
+#### Regression discontinuity design
 
 - Regression discontinuity design (RDD) methods are implemented in 
   `r pkg("rdrobust")` (offering robust confidence interval construction and
@@ -172,7 +196,6 @@ the GitHub repository or contact the maintainer.
   calculations are available in `r pkg("rdpower")`, while `r pkg("RATest")` 
   provides a collection of randomization tests, including a permutation test
   for the continuity assumption of the baseline covariates in the sharp RDD.
-- *See also* the `r view("CausalInference")` task view for related discussions.
 
 ### Panel data models
 
