@@ -28,9 +28,11 @@ the GitHub repository or contact the maintainer.
   the basic `summary()` and `anova()` methods that also support asymptotic
   tests (*z* instead of *t* tests, and Chi-squared instead of *F* tests) and
   plug-in of other covariance matrices are `coeftest()` and `waldtest()` in
-  `r pkg("lmtest", priority = "core")`. Tests of more general linear hypotheses
-  are implemented in `linearHypothesis()` and for nonlinear hypotheses in
-  `deltaMethod()` in `r pkg("car", priority = "core")`.
+  `r pkg("lmtest", priority = "core")`. (Non)linear hypothesis testing for a
+  wide range of R packages can implemented through the `deltamethod()` 
+  function of `r pkg("marginaleffects", priority = "core")`. This expands on
+  older (non)linear hypothesis test functions like `linearHypothesis()` and
+  `deltaMethod()` from `r pkg("car", priority = "core")`.
 - *Robust standard errors:* HC, HAC, clustered, and bootstrap covariance
   matrices are available in `r pkg("sandwich", priority = "core")` and can be
   plugged into the inference functions mentioned above.
