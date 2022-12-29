@@ -140,13 +140,14 @@ the GitHub repository or contact the maintainer.
   for relative distributions is contained in package `r pkg("reldist")`.
 
 
-### Canonical research designs
+### Common research designs for causal inference
 
-We briefly review packages related to some common research designs below. This
-section should be paired with the `r view("CausalInference")` task view, since
-is there a high degree of overlap.
+We review packages related to some common research designs for causal
+inference below. This section is necessarily brief and should be paired with
+the `r view("CausalInference")` task view, since is there a high degree of
+overlap.
 
-#### Difference-in-differences
+#### Difference-in-differences and synthetic control
 
 - *Basic difference-in-differences (DiD):* The canonical 2x2 DiD model (two 
   units, two periods) can be estimated as a simple interaction between two
@@ -157,13 +158,19 @@ is there a high degree of overlap.
   `r pkg("fixest")` or `r pkg("plm")`. The former even provides a convenience 
   `i()` operator for constructing and interacting factors in TWFE settings.
 - *Advanced DiD and TWFE corrections:* Despite its long-standing popularity,
-  recent research has revealed various problems with (naive) TWFE; for example,
+  recent research has uncovered various problems with (naive) TWFE; for example,
   severe bias in the presence of staggered treatment rollout. A [cottage
   industry](https://asjadnaqvi.github.io/DiD/docs/02_R/) of workarounds and 
-  alternative estimators now exists to address these problems. Examples include:
-  `r pkg("bacondecomp")`, `r pkg("did")`, `r pkg("did2s")`, `r pkg("DRDID")`, 
-  `r pkg("etwfe)`, `r pkg("fixest")` (via the `sunab()` function), and 
-  `r pkg("gsynth")`.
+  alternative estimators now exists to address these problems. R package 
+  implementations include: `r pkg("bacondecomp")`, `r pkg("did")`,
+  `r pkg("did2s")`, `r pkg("DRDID")`, `r pkg("etwfe)`, `r pkg("fixest")` (via
+  the `sunab()` function), and `r pkg("gsynth")`.
+- *Synthetic control:* The original synthetic control (SC) implementation is
+  available through `r pkg("Synth")`, while `r pkg("tidsynth")` offers a newer
+  SC implementation with various enhancements (speed, inspection, etc.) 
+  Similarly, `r pkg("gsynth")` generalizes the original SC implementation to
+  multiple treated units and variable treatment periods, and also supports
+  additional estimation methods like the EM algorithm and matrix completion.
 
 #### Instrumental variables
 
@@ -196,6 +203,7 @@ is there a high degree of overlap.
   calculations are available in `r pkg("rdpower")`, while `r pkg("RATest")` 
   provides a collection of randomization tests, including a permutation test
   for the continuity assumption of the baseline covariates in the sharp RDD.
+
 
 ### Panel data models
 
