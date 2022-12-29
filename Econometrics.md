@@ -89,7 +89,10 @@ the GitHub repository or contact the maintainer.
   (e.g., with random effects etc.) are in `r pkg("gmnl")`. A flexible
   framework of various customizable choice models (including multinomial logit
   and nested logit among many others) is implemented in the `r pkg("apollo")`
-  package. Generalized additive models (GAMs) for multinomial responses can be
+  package. The newer `r pkg("logitr")` package combines many of the features
+  from these preceding packages and also offers some meaningful performance
+  improvements for fast estimation of multinomial and mixed logit models. 
+  Generalized additive models (GAMs) for multinomial responses can be
   fitted with the `r pkg("VGAM")` package. A Bayesian approach to multinomial
   probit models is provided by `r pkg("MNP")`. Various Bayesian multinomial
   models (including logit and probit) are available in `r pkg("bayesm")`.
