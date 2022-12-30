@@ -171,7 +171,7 @@ overlap.
   `r pkg("did2s")`, `r pkg("DRDID")`, `r pkg("etwfe")`, `r pkg("fixest")` (via
   the `sunab()` function), and `r pkg("gsynth")`.
 - *Synthetic control:* The original synthetic control (SC) implementation is
-  available through `r pkg("Synth")`, while `r pkg("tidsynth")` offers a newer
+  available through `r pkg("Synth")`, while `r pkg("tidysynth")` offers a newer
   SC implementation with various enhancements (speed, inspection, etc.) 
   Similarly, `r pkg("gsynth")` generalizes the original SC implementation to
   multiple treated units and variable treatment periods, and also supports
