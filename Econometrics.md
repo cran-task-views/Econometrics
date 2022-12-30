@@ -168,7 +168,7 @@ overlap.
   industry](https://asjadnaqvi.github.io/DiD/docs/02_R/) of workarounds and 
   alternative estimators now exists to address these problems. R package 
   implementations include: `r pkg("bacondecomp")`, `r pkg("did")`,
-  `r pkg("did2s")`, `r pkg("DRDID")`, `r pkg("etwfe)`, `r pkg("fixest")` (via
+  `r pkg("did2s")`, `r pkg("DRDID")`, `r pkg("etwfe")`, `r pkg("fixest")` (via
   the `sunab()` function), and `r pkg("gsynth")`.
 - *Synthetic control:* The original synthetic control (SC) implementation is
   available through `r pkg("Synth")`, while `r pkg("tidsynth")` offers a newer
