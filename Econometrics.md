@@ -3,7 +3,7 @@ name: Econometrics
 topic: Econometrics
 maintainer: Achim Zeileis, Grant McDermott, Kevin Tappe
 email: Achim.Zeileis@R-project.org
-version: 2022-12-29
+version: 2023-01-17
 source: https://github.com/cran-task-views/Econometrics/
 ---
 
@@ -412,6 +412,8 @@ overlap.
 - *Inequality:* For measuring inequality, concentration and poverty the
   package `r pkg("ineq")` provides some basic tools such as Lorenz curves,
   Pen's parade, the Gini coefficient, Herfindahl-Hirschman index and many more.
+  `r pkg("wINEQ")` provides these and other inequality measures for weighted
+  data along with bootstrapping methods.
 - *Structural change:* R is particularly strong when dealing with structural
   changes and changepoints in parametric models, see `r pkg("strucchange")`
   and `r pkg("segmented")`.
