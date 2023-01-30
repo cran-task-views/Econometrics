@@ -3,7 +3,7 @@ name: Econometrics
 topic: Econometrics
 maintainer: Achim Zeileis, Grant McDermott, Kevin Tappe
 email: Achim.Zeileis@R-project.org
-version: 2023-01-17
+version: 2023-01-30
 source: https://github.com/cran-task-views/Econometrics/
 ---
 
@@ -91,7 +91,9 @@ the GitHub repository or contact the maintainer.
   and nested logit among many others) is implemented in the `r pkg("apollo")`
   package. The newer `r pkg("logitr")` package combines many of the features
   from these preceding packages and also offers some meaningful performance
-  improvements for fast estimation of multinomial and mixed logit models. 
+  improvements for fast estimation of multinomial and mixed logit models.
+  Simulated maximum likelihood estimation of mixed logit models, especially
+  for large data sets, is available in `r pkg("mixl")`.
   Generalized additive models (GAMs) for multinomial responses can be
   fitted with the `r pkg("VGAM")` package. A Bayesian approach to multinomial
   probit models is provided by `r pkg("MNP")`. Various Bayesian multinomial
