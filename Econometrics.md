@@ -98,14 +98,17 @@ the GitHub repository or contact the maintainer.
   fitted with the `r pkg("VGAM")` package. A Bayesian approach to multinomial
   probit models is provided by `r pkg("MNP")`. Various Bayesian multinomial
   models (including logit and probit) are available in `r pkg("bayesm")`.
-  Furthermore, the package `r pkg("RSGHB")` fits various hierarchical Bayesian
+  The package `r pkg("RSGHB")` fits various hierarchical Bayesian
   specifications based on direct specification of the likelihood function.
+  Furthermore, the `r pkg ("RprobitB")` package implements latent class mixed
+  multinomial probit models for approximations of the true underlying mixing
+  distribution.
 - *Ordered responses:* Proportional-odds regression for ordered responses is
   implemented in `polr()` from package `r pkg("MASS")`. The package
   `r pkg("ordinal")` provides cumulative link models for ordered data which
   encompasses proportional odds models but also includes more general
   specifications. Bayesian ordered probit models are provided by
-  `r pkg("bayesm")`.
+  `r pkg("bayesm")` and `r pkg("RprobitB")`.
 - *Censored responses:* Basic censored regression models (e.g., tobit models)
   can be fitted by `survreg()` in `r pkg("survival")`, a convenience interface
   `tobit()` is in package `r pkg("AER", priority = "core")`. Further censored
