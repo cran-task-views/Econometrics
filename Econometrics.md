@@ -3,7 +3,7 @@ name: Econometrics
 topic: Econometrics
 maintainer: Achim Zeileis, Grant McDermott, Kevin Tappe
 email: Achim.Zeileis@R-project.org
-version: 2023-04-18
+version: 2023-04-24
 source: https://github.com/cran-task-views/Econometrics/
 ---
 
@@ -442,7 +442,7 @@ overlap.
 
 ### Links
 - Articles: [Special Volume on "Econometrics in R" in JSS (2008)](http://www.jstatsoft.org/v27/)
-- Book: [Applied Econometrics with R (Kleiber & Zeileis; 2008)](https://eeecon.uibk.ac.at/~zeileis/teaching/AER/)
+- Book: [Applied Econometrics with R (Kleiber & Zeileis; 2008)](https://www.zeileis.org/teaching/AER/)
 - Book: [Introduction to Econometrics with R (Hanck, Arnold, Gerber, & Schmelzer; 2021)](https://www.Econometrics-with-R.org/)
 - Book: [Introduction to Econometrics with R (Oswald, Robin, & Viers; 2020)](https://scpoecon.github.io/ScPoEconometrics/)
 - Book: [Causal Inference: The Mixtape (Cunningham; 2021)](https://mixtape.scunning.com/)
