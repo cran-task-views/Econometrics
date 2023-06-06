@@ -3,7 +3,7 @@ name: Econometrics
 topic: Econometrics
 maintainer: Achim Zeileis, Grant McDermott, Kevin Tappe
 email: Achim.Zeileis@R-project.org
-version: 2023-04-24
+version: 2023-06-06
 source: https://github.com/cran-task-views/Econometrics/
 ---
 
@@ -242,8 +242,10 @@ overlap.
   This includes efficient fixed-effect estimation of logit, probit, Poisson,
   and negative binomial models. Similar functionality is provided by 
   `r pkg("alpaca")` (which also accounts for incidental parameter problems) 
-  and `r pkg("pglm")`. GEE models for panel data (or longitudinal data in 
-  statistical jargon) are available in in `r pkg("geepack")`.
+  and `r pkg("pglm")`. `r pkg("penppml")` further extends the high-dimensional
+  case through penalized Poisson Pseudo Maximum Likelihood (PPML) regressions,
+  using lasso or ridge penalties. GEE models for panel data (or longitudinal
+  data in statistical jargon) are available in in `r pkg("geepack")`.
 - *Mixed effects models:* Linear and nonlinear models for panel data (and
   more general multi-level data) are available in `r pkg("lme4")` and `r pkg("nlme")`.
 - *Instrumental variables:* `r pkg("fixest")`. See also above.
