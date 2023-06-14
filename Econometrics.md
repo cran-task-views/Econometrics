@@ -117,10 +117,7 @@ the GitHub repository or contact the maintainer.
   heteroscedasticity are in `r pkg("crch")`. Furthermore, hurdle models for
   left-censored data at zero can be estimated with `r pkg("mhurdle")`. Models
   for sample selection are available in `r pkg("sampleSelection")` and
-  `r pkg("ssmrob")` using classical and robust inference, respectively. Package
-  `r pkg("matchingMarkets")` corrects for selection bias when the sample is
-  the result of a stable matching process (e.g., a group formation or college
-  admissions problem).
+  `r pkg("ssmrob")` using classical and robust inference, respectively.
 - *Truncated responses:* `r pkg("crch")` for truncated (and potentially
   heteroscedastic) Gaussian, logistic, and t responses. Homoscedastic Gaussian
   responses are also available in `r pkg("truncreg")`.
