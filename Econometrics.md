@@ -3,7 +3,7 @@ name: Econometrics
 topic: Econometrics
 maintainer: Achim Zeileis, Grant McDermott, Kevin Tappe
 email: Achim.Zeileis@R-project.org
-version: 2023-08-08
+version: 2024-06-03
 source: https://github.com/cran-task-views/Econometrics/
 ---
 
