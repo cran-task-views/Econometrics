@@ -338,8 +338,9 @@ overlap.
   package.
 - *Vector autoregression:* Simple models can be fitted by `ar()` in stats,
   more elaborate models are provided in package `r pkg("vars")` along with
-  suitable diagnostics, visualizations etc. Panel vector autoregressions are
-  available in `r pkg("panelvar")`.
+  suitable diagnostics, visualizations etc. Structural smooth transition vector
+  autoregressive models are in `r pkg("sstvars")` - and panel vector
+  autoregressions in `r pkg("panelvar")`. 
 - *Unit root and cointegration tests:* `r pkg("urca", priority = "core")`,
   `r pkg("tseries", priority = "core")`, `r pkg("CADFtest")`. See also
   `r pkg("pco")` for panel cointegration tests and 
