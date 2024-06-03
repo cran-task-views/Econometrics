@@ -372,7 +372,6 @@ overlap.
   with R" (Croissant & Millo 2018) is available. The
   `r github("ccolonescu/PoEdata")` package on GitHub provides the data sets from
   "Principles of Econometrics" (4th ed, by Hill, Griffiths, and Lim 2011).
-- *Canadian monetary aggregates:* `r pkg("CDNmoney")`.
 - *Penn World Table:* `r pkg("pwt")` provides versions 5.6, 6.x, 7.x. Version
   8.x and 9.x data are available in `r pkg("pwt8")` and `r pkg("pwt9")`,
   respectively.
