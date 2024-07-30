@@ -188,8 +188,7 @@ overlap.
   (2SLS) is provided by `r pkg("ivreg", priority = "core")`, which separates
   out the dedicated 2SLS routines previously found in `r pkg("AER")`). Another
   implementation is available as `tsls()` in package `r pkg("sem")`.
-- *Binary responses:* An IV probit model via GLS estimation is available in
-  `r pkg("ivprobit")`. The `r pkg("LARF")` package estimates local average
+- *Binary responses:* The `r pkg("LARF")` package estimates local average
   response functions for binary treatments and binary instruments.
 - *Panel data:* Several panel data model packages (see below) provide their own
   dedicated IV routines for efficient estimation in the presence of
