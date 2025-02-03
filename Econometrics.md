@@ -3,7 +3,7 @@ name: Econometrics
 topic: Econometrics
 maintainer: Achim Zeileis, Grant McDermott, Kevin Tappe
 email: Achim.Zeileis@R-project.org
-version: 2024-06-03
+version: 2025-02-03
 source: https://github.com/cran-task-views/Econometrics/
 ---
 
@@ -186,7 +186,7 @@ overlap.
 
 - *Basic instrumental variables (IV) regression:* Two-stage least squares
   (2SLS) is provided by `r pkg("ivreg", priority = "core")`, which separates
-  out the dedicated 2SLS routines previously found in `r pkg("AER")`). Another
+  out the dedicated 2SLS routines previously found in `r pkg("AER")`. Another
   implementation is available as `tsls()` in package `r pkg("sem")`.
 - *Binary responses:* The `r pkg("LARF")` package estimates local average
   response functions for binary treatments and binary instruments.
