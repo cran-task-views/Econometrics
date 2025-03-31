@@ -3,7 +3,7 @@ name: Econometrics
 topic: Econometrics
 maintainer: Achim Zeileis, Grant McDermott, Kevin Tappe
 email: Achim.Zeileis@R-project.org
-version: 2025-02-03
+version: 2025-04-01
 source: https://github.com/cran-task-views/Econometrics/
 ---
 
@@ -342,7 +342,6 @@ overlap.
   autoregressions in `r pkg("panelvar")`. 
 - *Unit root and cointegration tests:* `r pkg("urca", priority = "core")`,
   `r pkg("tseries", priority = "core")`, `r pkg("CADFtest")`. See also
-  `r pkg("pco")` for panel cointegration tests and 
   `r pkg("plm", priority = "core")` for panel unit root tests.
 - *Miscellaneous:*
   - `r pkg("tsDyn")` - Threshold and smooth transition models.
