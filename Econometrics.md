@@ -3,7 +3,7 @@ name: Econometrics
 topic: Econometrics
 maintainer: Achim Zeileis, Grant McDermott, Kevin Tappe
 email: Achim.Zeileis@R-project.org
-version: 2025-04-01
+version: 2025-04-03
 source: https://github.com/cran-task-views/Econometrics/
 ---
 
@@ -454,6 +454,7 @@ overlap.
 - Book: [Statistical Inference via Data Science (Ismay & Kim; 2022)](https://moderndive.com/)
 - Book: [The Effect (Huntington-Klein; 2022)](https://theeffectbook.net/)
 - Book: [Using R for Introductory Econometrics (Heiss; 2019)](http://www.urfie.net/)
+- Book: [Quantitative Economics with R (Dayal; 2020)](https://doi.org/10.1007/978-981-15-2035-8)
 - Course: [Applied Empirical Methods (Goldsmith-Pinkham; 2021)](https://github.com/paulgp/applied-methods-phd)
 - Course: [Data Science for Economists (McDermott; 2021)](https://github.com/uo-ec607/lectures)
 - Course: [Econometrics In-Class Labs (Ransom; 2021)](https://tyleransom.github.io/econometricslabs.html)
