@@ -3,7 +3,7 @@ name: Econometrics
 topic: Econometrics
 maintainer: Achim Zeileis, Grant McDermott, Kevin Tappe
 email: Achim.Zeileis@R-project.org
-version: 2025-04-03
+version: 2025-09-01
 source: https://github.com/cran-task-views/Econometrics/
 ---
 
@@ -427,7 +427,7 @@ overlap.
 - *Global value chains:* Tools and decompositions for global value chains are
   in `r pkg("gvc")` and `r pkg("decompr")`.
 - *Regression discontinuity design:* A variety of methods are provided in the
-  `r pkg("rdd")`, `r pkg("rdrobust")`, and `r pkg("rdlocrand")` packages. The
+  `r pkg("rdrobust")` and `r pkg("rdlocrand")` packages. The
   `r pkg("rdpower")` package offers power calculations for regression
   discontinuity designs. And `r pkg("rdmulti")` implements analysis with
   multiple cutoffs or scores.
