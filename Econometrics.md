@@ -354,6 +354,7 @@ overlap.
   - `r pkg("dlsem")` - Distributed-lag linear structural equation models.
   - `r pkg("lpirfs")` - Local projections impulse response functions.
   - `r pkg("apt")` - Asymmetric price transmission models.
+  - `r pkg("Rmfrac")` - Simulation and analyses of fractional and multifractional processes.
 
 
 ### Data sets
