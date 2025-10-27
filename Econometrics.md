@@ -3,7 +3,7 @@ name: Econometrics
 topic: Econometrics
 maintainer: Achim Zeileis, Grant McDermott, Kevin Tappe
 email: Achim.Zeileis@R-project.org
-version: 2025-09-01
+version: 2025-10-28
 source: https://github.com/cran-task-views/Econometrics/
 ---
 
@@ -234,8 +234,9 @@ overlap.
   available in `r pkg("plm")`, with estimation based on moment conditions in
   `r pkg("pdynmc")`, and dynamic panel models with fixed effects in
   `r pkg("OrthoPanels")`. `r pkg("feisr")` provides fixed effects individual
-  slope (FEIS) models. Panel vector autoregressions are implemented in
-  `r pkg("panelvar")`.
+  slope (FEIS) models. Panel vector autoregressions with homogeneous slope parameters
+  are implemented in `r pkg("panelvar")` and with heterogeneous parameters
+  in `r pkg("pvars")`.
 - *GLMs and generalized estimation equations*. The aformentioned `r pkg("fixest")`
   supports a variety of GLM-like models in addition to linear panel models. 
   This includes efficient fixed-effect estimation of logit, probit, Poisson,
@@ -337,11 +338,12 @@ overlap.
 - *Vector autoregression:* Simple models can be fitted by `ar()` in stats,
   more elaborate models are provided in package `r pkg("vars")` along with
   suitable diagnostics, visualizations etc. Structural smooth transition vector
-  autoregressive models are in `r pkg("sstvars")` and panel vector
-  autoregressions in `r pkg("panelvar")`. 
+  autoregressive models are available in `r pkg("sstvars")`. Panel vector
+  autoregressions are implemented in `r pkg("panelvar")` and in `r pkg("pvars")`.
 - *Unit root and cointegration tests:* `r pkg("urca", priority = "core")`,
   `r pkg("tseries", priority = "core")`, `r pkg("CADFtest")`. See also
-  `r pkg("plm", priority = "core")` for panel unit root tests.
+  `r pkg("plm", priority = "core")` for panel unit root tests and
+  `r pkg("pvars")` for system-based panel cointegration tests.
 - *Miscellaneous:*
   - `r pkg("tsDyn")` - Threshold and smooth transition models.
   - `r pkg("midasr")` - *MIDAS regression* and other econometric methods for
