@@ -80,7 +80,7 @@ the GitHub repository or contact the maintainer.
   `r pkg("aod")`, which also contains other models for overdispersed data.
   Zero-inflated and hurdle count models are provided in package `r pkg("pscl")`.
   A reimplementation by the same authors is currently under
-  development in `r codeberg("countreg")` on Codeberg which also encompasses
+  development in `r codeberg("zeileis/countreg")` on Codeberg which also encompasses
   separate functions for zero-truncated regression, finite mixture models etc.
 - *Multinomial responses:* Multinomial models with individual-specific
   covariates only are available in `multinom()` from package `r pkg("nnet")`.
