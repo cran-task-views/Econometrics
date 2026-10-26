@@ -3,7 +3,7 @@ name: Econometrics
 topic: Econometrics
 maintainer: Achim Zeileis, Grant McDermott, Kevin Tappe
 email: Achim.Zeileis@R-project.org
-version: 2026-10-08
+version: 2026-10-26
 source: https://github.com/cran-task-views/Econometrics/
 ---
 
@@ -98,8 +98,6 @@ the GitHub repository or contact the maintainer.
   fitted with the `r pkg("VGAM")` package. A Bayesian approach to multinomial
   probit models is provided by `r pkg("MNP")`. Various Bayesian multinomial
   models (including logit and probit) are available in `r pkg("bayesm")`.
-  The package `r pkg("RSGHB")` fits various hierarchical Bayesian
-  specifications based on direct specification of the likelihood function.
   Furthermore, the `r pkg ("RprobitB")` package implements latent class mixed
   multinomial probit models for approximations of the true underlying mixing
   distribution.
