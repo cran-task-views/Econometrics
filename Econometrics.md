@@ -3,7 +3,7 @@ name: Econometrics
 topic: Econometrics
 maintainer: Achim Zeileis, Grant McDermott, Kevin Tappe
 email: Achim.Zeileis@R-project.org
-version: 2026-10-26
+version: 2026-11-15
 source: https://github.com/cran-task-views/Econometrics/
 ---
 
@@ -351,7 +351,6 @@ overlap.
     variance.
   - `r pkg("bimets")` - Econometric modeling of time series data using
     flexible specifications of simultaneous equation models.
-  - `r pkg("dlsem")` - Distributed-lag linear structural equation models.
   - `r pkg("lpirfs")` - Local projections impulse response functions.
   - `r pkg("apt")` - Asymmetric price transmission models.
 
